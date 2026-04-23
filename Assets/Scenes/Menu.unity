@@ -887,7 +887,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MouseTest: {fileID: 2800000, guid: 111971e2182a20b478db37fde5fc8462, type: 3}
   MouseTest1: {fileID: 2800000, guid: d0c7ae14d9c901e48a2dbdc841ad030a, type: 3}
-  ClickSound: {fileID: 8300000, guid: 1bd25e7019859fc488dd473db6c9d79e, type: 3}
+  ClickSound: {fileID: 8300000, guid: 1f0d8404815f6f94c9a39eb788ab0a6d, type: 3}
   animator: {fileID: 1842578089}
 --- !u!1 &1505868005
 GameObject:
@@ -1258,7 +1258,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1785549459}
   - component: {fileID: 1785549461}
-  - component: {fileID: 1785549460}
   m_Layer: 0
   m_Name: click
   m_TagString: Untagged
@@ -1281,14 +1280,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1505868006}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!81 &1785549460
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1785549458}
-  m_Enabled: 1
 --- !u!82 &1785549461
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1299,8 +1290,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 1bd25e7019859fc488dd473db6c9d79e, type: 3}
-  m_Resource: {fileID: 8300000, guid: 1bd25e7019859fc488dd473db6c9d79e, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 1f0d8404815f6f94c9a39eb788ab0a6d, type: 3}
+  m_Resource: {fileID: 8300000, guid: 1f0d8404815f6f94c9a39eb788ab0a6d, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
